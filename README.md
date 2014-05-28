@@ -1,4 +1,4 @@
-naive_bayes
+simple naive bayes python code
 ===========
 
-simple naive bayes made in python 
+Applying simple naive bayes code in python 
