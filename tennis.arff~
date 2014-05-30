@@ -1,9 +1,9 @@
 @RELATION TENNIS
-@ATTRIBUTE outlook {sunny, overcast, rain}
-@ATTRIBUTE temperature {hot, mild, cool}
-@ATTRIBUTE humidity {high, normal, low}
-@ATTRIBUTE wind {weak, strong}
-@ATRIBUTTE class {yes, no}
+@ATTRIBUTE outlook {sunny,overcast,rain}
+@ATTRIBUTE temperature {hot,mild,cool}
+@ATTRIBUTE humidity {high,normal}
+@ATTRIBUTE wind {strong,weak}
+@ATRIBUTTE class {yes,no}
 @DATA
 Sunny,Hot,High,Weak,No
 Sunny,Hot,High,Strong,No

@@ -21,12 +21,18 @@ class Model:
                 
                 for i in range(len(self.featureNameList)-1):
                         valoresPorAtributo = len(self.features[self.featureNameList[i]])
-                        self.matrix.append ([[0 for x in xrange(self.numeroClases)] for x in xrange(valoresPorAtributo)])  #columnas x fila
+                        self.matrix.append ([[0 for x in xrange(self.numeroClases)] for x in xrange(valoresPorAtributo)])  #column x row of zeros
 
-                # for row in self.featureVectors:
-                #         #indexClass = len(row)-1
-                #         for item in row:
-                #                 print item 
+                for row in self.featureVectors:
+                        indexOfColumClass = row[len(row)-1] #getting value of this record's class i.e "yes" "no" classes
+                        indexOfrowClass = self.features['class'].index(indexOfColumClass) # getting index of this record class to add up into look-up table
+
+                        # print rowClass
+                        for i in range(len(row)-1):
+                                attributeIndex=self.features[self.featureNameList[i]].index(row[i])
+                                self.matrix[i][attributeIndex][indexOfrowClass] =  self.matrix[i][attributeIndex][indexOfrowClass] +1 # making look-up table
+                                
+
                 
                                 
         def GetValues(self):
