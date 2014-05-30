@@ -31,10 +31,8 @@ vhigh,vhigh,2,2,big,low,unacc
 vhigh,vhigh,2,2,big,med,unacc
 vhigh,vhigh,2,2,big,high,unacc
 vhigh,vhigh,2,4,small,low,unacc
-vhigh,vhigh,2,4,small,med,unacc
-.
-.
-.
+vhigh,vhigh,2,4,small,med,unacc ...
+
 --------------------------------------------
 car-prueba.data
 --------------------------------------------
@@ -53,7 +51,7 @@ OUTPUT
 
 ---------------------------------------------
 
-means that we have to choose the highest value, i.e. for the first row we choose 0.454100 -> unaac
+means that we have to choose the highest value, i.e. for the first row we choose 0.454100 -> unaac;
 for second row choose 0.7357 -> good
 and so on
   
