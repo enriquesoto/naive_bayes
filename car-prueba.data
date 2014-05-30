@@ -1,4 +1,4 @@
-low,low,4,2,big,high,unacc
-low,low,5more,4,med,med,good
-low,low,5more,more,big,low,unacc
-high,vhigh,3,4,big,med,unacc
+low,low,4,2,big,high
+low,low,5more,4,med,med
+low,low,5more,more,big,low
+high,vhigh,3,4,big,med
